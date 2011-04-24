@@ -1,5 +1,4 @@
 require 'twitter'
-require 'json'
 require 'pony'
 
 # Open file storing last seen tweet id
@@ -43,7 +42,7 @@ if @timelinedata.length!=0 then # there are new updates
     Pony.mail(:to => @Conf['email'], :from => emailfrom,
               :subject => emailsubject, :body => emailtext,
               :headers => {"X-Tweet-ID" => status['id'].to_s})
-  end
+end
 
   # set the last seen to the first returned tweet; this is the last one received
   # write out last seen to a file for next time
