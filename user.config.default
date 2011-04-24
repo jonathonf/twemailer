@@ -1,0 +1,8 @@
+# Configuration file. Copy and rename as user.config.
+
+email: email@example.com
+consumer_key: AAAAAAAAAAAAAAAAAAAA
+consumer_secret: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+oauth_token: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+oauth_token_secret: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+

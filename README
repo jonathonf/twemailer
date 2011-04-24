@@ -1,0 +1,2 @@
+A simple script to grab timeline updates from Twitter and email them using sendmail. It's not pretty, but it works.
+
